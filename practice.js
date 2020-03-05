@@ -127,26 +127,7 @@ function uniq (array, callback){
 }
 return callback(array);
 }
-// function uniq (array , callback){
-//   for(let i = 0; i < array.length; i++) {
-//   for(let q = i + 1; q < array.lenth; q++) {
-//   if (array[i] === array[q]){
-//   array.splice(q,1)
-//       }
-//       }
-//   }
-//   return callback(array);
-// }
 
-// function uniq(array, callbackFn){
-//   for(let i = 0; i < array.length; i++){
-//     for (let q = 0; q < array.length; q++) {
-//     if(array[i] === array[q] && i !== q){
-//       array.splice(q,1)
-//      }
-//     }
-//  }
-//  return callbackFn(array)
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
